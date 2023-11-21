@@ -1,0 +1,22 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(234, 29%, 20%);
+}
+#card-container {
+  max-width: 1440px;
+  border-radius: 8px;
+  border: 1px black solid;
+  height: 400px;
+  background-color: white;
+}
+
+ul {
+  list-style-image: url(/assets/images/icon-list.svg);
+}
