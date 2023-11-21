@@ -9,14 +9,29 @@
 body {
   background-color: hsl(234, 29%, 20%);
 }
+
+/*Styles container for the content */
 #card-container {
-  max-width: 1440px;
+  width: 800px;
+  max-width: 1400px;
   border-radius: 8px;
   border: 1px black solid;
   height: 400px;
   background-color: white;
+  display: flex;
+  justify-content: space-evenly;
 }
-
+/*Styles the list dots to be using a svg*/
 ul {
   list-style-image: url(/assets/images/icon-list.svg);
+}
+
+/*Styles the container for the image*/
+#card-Image {
+  padding: 2%;
+}
+
+/*Styles the image*/
+#productImage {
+  height: 100%;
 }
