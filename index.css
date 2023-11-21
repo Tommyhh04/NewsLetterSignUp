@@ -7,24 +7,79 @@
 }
 
 body {
-  background-color: hsl(234, 29%, 20%);
+  background-color: hsl(235, 18%, 26%);
+  color: hsl(234, 29%, 20%);
+  font-family: "Roboto", sans-serif;
 }
 
 /*Styles container for the content */
 #card-container {
-  width: 800px;
+  width: 900px;
   max-width: 1400px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px black solid;
-  height: 400px;
+  height: 500px;
   background-color: white;
   display: flex;
   justify-content: space-evenly;
+  border: none;
 }
+
+/*TEXT PART OF THE CARD*/
+
+/*Styles the container for the text part*/
+#card-content {
+  padding: 2% 2%;
+}
+
+/*Title*/
+h1 {
+  font-size: 40px;
+}
+
+/*Intro text (text under title)*/
+h3 {
+  font-weight: 300;
+}
+
 /*Styles the list dots to be using a svg*/
 ul {
   list-style-image: url(/assets/images/icon-list.svg);
 }
+
+/*Styles the email adress text over the input field*/
+#card-Email {
+  font-weight: bold;
+  font-size: 12px;
+}
+/*Styles the input field for email adress*/
+
+input {
+  color: hsl(231, 7%, 60%);
+  width: 400px;
+  padding: 10px;
+}
+input:focus {
+  color: black;
+}
+
+/*Subscription button*/
+button {
+  background-color: hsl(234, 29%, 20%);
+  padding: 10px;
+  border-radius: 5px;
+  width: 425px;
+  color: white;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button:active {
+  background-color: hsl(234, 31%, 26%);
+}
+
+/*IMAGE PART OF THE CARD*/
 
 /*Styles the container for the image*/
 #card-Image {

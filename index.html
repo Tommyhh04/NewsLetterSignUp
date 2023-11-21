@@ -11,9 +11,15 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
+    <!--Links stylesheet-->
     <link rel="stylesheet" href="index.css" />
-
+    <!--Custom font google roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>
       Frontend Mentor | Newsletter sign-up form with success message
     </title>
@@ -25,6 +31,7 @@
 
         <h1>Stay updated!</h1>
         <h3>Join 60,000+ product managers receiving monthly updates on:</h3>
+
         <!--List of updates-->
         <ul>
           <li>Product discovery and building what matters</li>
@@ -32,12 +39,14 @@
           <li>And much more!</li>
         </ul>
         <form id="card-signUp">
-          <p>Email address</p>
+          <p id="card-Email">Email address</p>
           <input type="text" placeholder="email@company.com" />
         </form>
         <button>Subscribe to monthly newsletter</button>
+
         <!-- Sign-up form end -->
       </div>
+      <!--Image-->
       <div id="card-Image">
         <img
           id="productImage"
@@ -46,6 +55,7 @@
       </div>
     </div>
 
+    <!--Footer-->
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
