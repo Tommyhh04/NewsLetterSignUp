@@ -14,7 +14,7 @@ body {
 }
 
 /*Styles container for the content */
-#card-container {
+#card--container {
   width: 900px;
   max-width: 1400px;
   border-radius: 10px;
@@ -29,7 +29,7 @@ body {
 /*TEXT PART OF THE CARD*/
 
 /*Styles the container for the text part*/
-#card-content {
+#card--content {
   padding: 2% 2%;
 }
 
@@ -49,7 +49,7 @@ ul {
 }
 
 /*Styles the email adress text over the input field*/
-#card-Email {
+#card--Email {
   font-weight: bold;
   font-size: 12px;
 }
@@ -83,7 +83,7 @@ button:active {
 /*IMAGE PART OF THE CARD*/
 
 /*Styles the container for the image*/
-#card-Image {
+#card--Image {
   padding: 2%;
 }
 
